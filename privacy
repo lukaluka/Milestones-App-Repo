@@ -1,1 +1,132 @@
+# Milestones Privacy Policy
+
+Last updated: June 11, 2026
+
+Milestones is a local-first iPhone app for tracking personal challenges, habits, streaks, daily checklist tasks, progress notes, optional Health-backed metrics, exports, encrypted iCloud backup, widgets, and privacy controls.
+
+This policy describes how Milestones handles data in the current app. It should be kept synchronized with the app's actual behavior and with the App Store privacy information submitted in App Store Connect.
+
+## Summary
+
+- Milestones does not require an account.
+- Milestones does not operate an app-owned server for challenge data.
+- Milestones does not use third-party advertising SDKs.
+- Milestones does not use third-party analytics telemetry.
+- Milestones does not sell personal data.
+- Milestones does not use data for third-party advertising or cross-app tracking.
+- Health access is optional and requires iOS Health permission.
+- Notifications are local notifications, not server push notifications.
+- iCloud backup is optional and uses the user's iCloud account when available.
+
+## Data Stored On Your Device
+
+Milestones stores app data locally on the device so the app can provide its core challenge-tracking features. This may include:
+
+- Challenge titles, goals, start dates, schedules, skipped days, vacation pauses, archive state, pin state, completion state, and success targets.
+- Daily logs, success or missed status, notes, checklist completion state, and checklist evidence.
+- Custom metric definitions and manually entered metric values.
+- Optional Health-backed metric values and Health automation results after Health permission is granted.
+- Notification preferences, reminder time, notification style, and scheduler status.
+- Privacy preferences, export redaction choices, backup scope, widget visibility, and Privacy Lock settings.
+- Administrator Free/Premium preview state.
+- Local recovery payloads when saved challenge data cannot be decoded.
+- Optional local photo attachments selected for progress-photo checklist tasks.
+
+Milestones stores app-private challenge data using local device storage and a Keychain-held encryption key. Some minimal data is also stored in an App Group container so the widget can display status and queue complete or missed actions for the app to apply later.
+
+## Health Data
+
+Milestones reads Health data only after the user grants permission through iOS Health. Optional Health features can read selected data types such as steps, exercise minutes, mindful minutes, sleep, workouts, and body weight.
+
+Health data is used only for user-selected metrics and automations inside Milestones. Milestones does not write Health data, sell Health data, use Health data for advertising, share Health data with third parties, or include Health-derived logs or Health-backed custom metric data in iCloud backups.
+
+You can change Health permissions at any time in iOS Settings or the Health app.
+
+## Notifications
+
+Milestones can schedule opt-in local notifications for unfinished checklist tasks and active streaks that may be at risk. Notification settings are stored on the device. Milestones does not use server push notifications and does not send notification content to an app-owned server.
+
+You can disable Milestones notifications in the app or in iOS notification settings.
+
+## iCloud Backup
+
+iCloud backup is optional. When enabled and available, Milestones writes encrypted backup files to the user's iCloud container. Backup files can be deleted from the app's Privacy & Data screen.
+
+Milestones excludes Health-derived logs, Health automation rules, Health-backed custom metric data, and progress-photo files from every iCloud backup scope. If the iCloud container is unavailable, Milestones surfaces that status instead of silently creating a local fallback under iCloud backup wording.
+
+Apple's iCloud service is provided by Apple and is subject to Apple's privacy terms and account settings.
+
+## Widgets
+
+Milestones widgets use a minimal shared snapshot with counts and limited challenge status. The widget does not receive the full challenge database. Widget complete and missed actions are queued in a bounded local app-group queue for the main app to apply as the source of truth.
+
+Widget content can be hidden through Milestones privacy settings and Privacy Lock settings.
+
+## Exports And Sharing
+
+Exports and private share summaries are user initiated. Depending on the user's redaction settings and selected export type, exported files may include challenge titles, goals, schedules, daily logs, checklist details, notes, and manual metric data. Progress-photo files are excluded from exports.
+
+When you share an exported file through iOS or another app, that destination app or service handles the shared file under its own terms and privacy practices. Review export redaction settings before sharing files outside your device.
+
+## Support Requests
+
+If you contact support through GitHub issues or another support channel, you choose what information to include. Support requests may include device model, iOS version, app version, reproduction steps, screenshots, or other details you provide.
+
+Do not include private Health data, challenge notes, backup files, export files, or unredacted screenshots in public support requests. Public GitHub issues are visible to others and are handled under GitHub's own terms and privacy practices.
+
+## App Store Billing
+
+The current app does not operate its own billing system. If App Store purchases are added or used, Apple handles App Store payment processing. Milestones does not receive full payment card numbers from Apple.
+
+## Data Deletion And Controls
+
+Milestones includes in-app privacy controls for:
+
+- Private notification text.
+- Widget visibility.
+- Export redaction.
+- iCloud backup scope.
+- Backup deletion.
+- Recovery payload deletion.
+- Notes and evidence deletion.
+- Full local data deletion.
+- Data export.
+- In-app privacy policy access.
+
+You can also remove app data by deleting the app from the device. Data that you exported, shared, backed up outside the app, included in a public support request, or stored through Apple services may need to be managed separately in those destinations.
+
+## Data Retention
+
+Milestones keeps local app data until you delete it, reset it, remove the app, or replace it through an in-app restore action. Optional iCloud backup files remain in the user's iCloud container until deleted through the app or managed through iCloud. Exported files remain wherever you save or share them.
+
+## Children
+
+Milestones is a general productivity app and is not specifically directed to children. The app does not ask for a child's name, age, school, or account information.
+
+## Security
+
+Milestones uses local app-private storage, Keychain-held encryption keys, encrypted iCloud backup files, file protection for generated exports where supported, minimized widget data, and optional Privacy Lock. Privacy Lock is a screen lock using Face ID or device owner authentication; it is not a replacement for device-level security or encrypted storage.
+
+No app or storage method can guarantee absolute security. Keep your device, Apple ID, and iOS version secure and up to date.
+
+## Changes To This Policy
+
+This policy may be updated when Milestones changes its features, data practices, dependencies, or release requirements. The "Last updated" date will be changed when this policy is updated.
+
+## Contact
+
+For privacy or support questions, use the Milestones support page:
+
+https://github.com/lukaluka/Milestones-App-Repo/issues
+
+Avoid posting private Health data, challenge notes, backup files, export files, or unredacted screenshots in public issues.
+
+## App Store Release Checklist
+
+Before public App Store release:
+
+- Publish this policy at the public Privacy Policy URL entered in App Store Connect.
+- Verify the URL loads over HTTPS without authentication.
+- Keep this policy synchronized with App Store privacy labels.
+- Recheck this policy whenever Health, iCloud, notifications, widgets, exports, support, analytics, StoreKit, or data-sharing behavior changes.
 
