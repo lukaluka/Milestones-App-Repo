@@ -1,0 +1,79 @@
+# Milestones
+
+Private daily challenge tracking for streaks, checklists, and progress.
+
+Milestones helps you follow through on personal challenges, habits, and streak-based commitments without turning your routine into a social feed or server account.
+
+Use it for a 75-day challenge, reading streak, fitness commitment, writing program, recovery routine, study plan, or any personal goal where showing up consistently is the point.
+
+## Track The Day In Front Of You
+
+Create one challenge or many. Each challenge can have a daily goal, optional checklist, start date, target number of successful days, notes, archived history, and a clear view of today's status.
+
+Milestones keeps daily logging fast:
+
+- Mark today complete or missed in a tap.
+- Check off daily tasks like workouts, water, reading, measurements, counters, and progress photos.
+- Add notes to daily logs.
+- Review older unlogged days.
+- Pin priority challenges.
+- Separate active, paused, upcoming, completed, and archived challenges.
+
+## Build Challenges Your Way
+
+Start from common templates, build a custom challenge, or save your own setup for reuse. Schedules can support everyday commitments, custom weekdays, weekly targets, skipped days, and vacation pauses.
+
+## Understand Your Progress
+
+Milestones gives you context beyond a simple counter. You can review:
+
+- Current and longest streaks.
+- Missed days.
+- Target progress.
+- Recent success rate.
+- Projected finish.
+- Checklist completion.
+- Recovery after misses.
+- Challenge-specific custom metrics.
+
+Optional Apple Health access can read selected Health data, such as body weight, only after you grant permission. Milestones does not write Health data.
+
+## Stay On Track Privately
+
+Opt in to local reminders for unfinished checklist tasks and streaks that may be at risk because today has not been logged. Reminder time, style, and private notification text are adjustable in the app and still respect iOS notification settings.
+
+Milestones uses local notifications, not server push notifications.
+
+## Keep Your Data Close
+
+Milestones is designed as a local-first, single-user app:
+
+- No account system.
+- No app-owned server dependency for challenge data.
+- No public social feed.
+- No external analytics telemetry.
+- No third-party advertising tracking.
+
+Challenge storage is encrypted on device. You can use Face ID or device authentication as a screen lock, hide widget content, keep notification text private, redact exports, and delete local notes, evidence, data, or backup files from the Privacy & Data screen.
+
+## Use Helpful Device Features
+
+Milestones includes optional integrations that stay under your control:
+
+- Apple Health read access for selected metrics and automations, after permission is granted.
+- Encrypted iCloud backup when the user's iCloud container is available.
+- WidgetKit snapshots for open or at-risk counts without giving the widget the full challenge database.
+- CSV/PDF exports and private share summaries with redaction controls.
+- Privacy Lock using Face ID or device owner authentication.
+
+Feature availability depends on iOS settings, Health permissions, iCloud availability, widget support, and device authentication settings.
+
+## Not Medical Advice
+
+Milestones is a productivity and personal challenge tracker. It is not a medical device, does not diagnose or treat conditions, and should not replace professional medical advice.
+
+## Learn More
+
+- Support: https://lukaluka.github.io/Milestones-App-Repo/support/
+- Privacy Policy: https://lukaluka.github.io/Milestones-App-Repo/privacy/
+
